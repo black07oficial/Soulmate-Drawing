@@ -10,7 +10,7 @@ const Index = () => {
 
   const handleClick = async () => {
     try {
-      const res = await fetch('http://localhost:4242/create-checkout-session', {
+      const res = await fetch('https://soulmate-drawing-checkout-stripe.vercel.app/create-checkout-session', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
